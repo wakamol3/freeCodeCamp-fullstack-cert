@@ -14,28 +14,29 @@ body {
 
 .post-img {
   width: 100%; /* fixed repeating CSS */
+  height: auto;
   border-bottom: 5px solid #000;
   border-radius: 15px 15px 0 0;
 }
 
 .post-content {
-  padding: 5px;
+  padding: 20px; /* padding fixed margins */
 }
 
 .post-title {
   color: black;
-  margin: 10px 5px 0px 5px; /* changed margin */
+  margin: 0 0 10px; /* fixed margin */
 }
 
 .post-excerpt {
-  color: black;
+  color: #667; /* fixed color */
   margin: 10px; /* changed margin */
 }
 
 .read-more {
   color: white;
   background-color: black;
-  margin: 15px;
+  margin-top: 10px;
   border-radius: 5px;
   display: inline-block;
   padding: 10px 15px;
