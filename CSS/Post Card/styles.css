@@ -1,6 +1,6 @@
 body {
-  background-color: lightgrey;
   font-family: Arial;
+  background-color: #f0f0f0; /* fixed background color */
 }
 
 .blog-post-card {
@@ -9,13 +9,12 @@ body {
   width: 350px; /* make sure it is the same width as the img */
   text-align: center;
   margin: auto;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%); /* not the right color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* fixed box shadow */
 }
 
 .post-img {
-  width: 350px;
-  height: 233px;
-  border-bottom: 5px solid #000; /* good */
+  width: 100%; /* fixed repeating CSS */
+  border-bottom: 5px solid #000;
   border-radius: 15px 15px 0 0;
 }
 
@@ -25,18 +24,18 @@ body {
 
 .post-title {
   color: black;
-  margin: 5px;
+  margin: 10px 5px 0px 5px; /* changed margin */
 }
 
 .post-excerpt {
   color: black;
-  margin: 15px;
+  margin: 10px; /* changed margin */
 }
 
 .read-more {
   color: white;
   background-color: black;
-  margin: 5px;
+  margin: 15px;
   border-radius: 5px;
   display: inline-block;
   padding: 10px 15px;
