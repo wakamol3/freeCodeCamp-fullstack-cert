@@ -45,4 +45,5 @@ body {
 .read-more:hover {
   color: white;
   opacity: 0.65;
+  background-color: lightgrey; /* needed background for challenge */
 }
