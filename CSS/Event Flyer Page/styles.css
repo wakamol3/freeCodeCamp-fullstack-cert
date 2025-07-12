@@ -6,8 +6,15 @@ body {
   text-align: center;
 }
 
+hr {
+  width: 100%;
+  background-color: black;
+  height: 2px;
+  margin: 30px auto;
+}
+
 img {
-  width: calc(50% - 10px);
+  width: 241px;
 }
 
 section {
@@ -16,12 +23,11 @@ section {
   vertical-align: top;
   display: inline-block;
   min-height: 100px;
-  width: 30%;
+  width: calc(20% + 50px);
 }
 
-hr {
-  width: 80%;
-  background-color: black;
-  height: 2px;
-  margin: 30px auto;
+ul {
+  text-align: left;
+  list-style: inside;
+  padding-left: 10px;
 }
