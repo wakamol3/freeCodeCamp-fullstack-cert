@@ -112,3 +112,7 @@ h1::after {
 .card-links a:focus {
   outline: 2px solid black;
 }
+
+.card-links a:visited {
+  color: crimson;
+}
