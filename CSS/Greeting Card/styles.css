@@ -124,3 +124,7 @@ section {
   padding: 20px;
   border-radius: 10px;
 }
+
+section:hover {
+  transform: skewX(10deg);
+}
