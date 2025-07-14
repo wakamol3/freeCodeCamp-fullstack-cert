@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Job Application Form</title>
-    <link rel="stylehseet" href="styles.css"/>
-</head>
-<body>
-<div class="container">
-    <form><label>Name</label>
-        <input type="text" id="name"></input>
-        <label>Email</label><input type="email" id="email"></input>
-        <select id="position"></select>
+    <link rel="stylehseet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <label for="name">Name:</label>
+        <input
+          required
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+        <label for="email">Email:</label
+        ><input
+          required
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <label for="position">Position:</label>
+        <select required name="position" id="position">
+          <option></option>
+          <option value="waiter">Waiter</option>
+          <option value="waiter">Busser</option>
+          <option value="waiter">Host</option>
+          <option value="waiter">Line Cook</option>
+        </select>
         <fieldset class="radio-group">
-            <label>Full-Time</label><input type="radio" name="availability" id="Full-Time"></input>
+          <input
+            required
+            type="radio"
+            name="availability"
+            id="fullTime"
+            value="fullTime"
+          />
+          <label for="fullTime">Full-Time</label>
 
-<label>Part-Time</label>
-
-<input type="radio" name="availability"
-            id="Part-Time"></input>
+          <input
+            type="radio"
+            name="availability"
+            id="partTime"
+            value="partTime"
+          />
+          <label for="partTime">Part-Time</label>
         </fieldset>
-        <textarea id="message">
-        </textarea>
+        <textarea id="message"> </textarea>
         <button type="submit">Submit</button>
-    </form>
-</div>
-</body>
+      </form>
+    </div>
+  </body>
 </html>
