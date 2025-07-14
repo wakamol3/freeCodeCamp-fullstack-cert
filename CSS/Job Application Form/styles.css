@@ -1,3 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.radio-group label {
+  margin: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="radio"]:checked + label {
+  color: green;
+}
+
 input:focus,
 textarea:focus {
   border: 2px solid red;
@@ -22,16 +59,17 @@ textarea:invalid {
   /*or use accent color for better visibility*/
 }
 
-input[type="radio"]:checked + label {
-  color: green;
-}
-
 h1 {
   text-align: center;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
