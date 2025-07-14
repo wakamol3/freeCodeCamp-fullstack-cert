@@ -20,3 +20,31 @@ textarea:invalid {
   background-color: green;
   box-shadow: 10px 10px 20px green;
 }
+
+input:focus,
+textarea:focus {
+  border: 2px solid red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border: 2px solid green;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid red;
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: green;
+  background-color: green;
+  box-shadow: 0px 0px 0px green;
+  /*or use accent color for better visibility*/
+}
+
+input[type="radio"]:checked + label {
+  color: green;
+}
