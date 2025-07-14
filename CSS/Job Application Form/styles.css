@@ -14,3 +14,9 @@ select:invalid,
 textarea:invalid {
   border: 2px solid red;
 }
+
+.radio-group input[type="radio"]:checked {
+  border-color: green;
+  background-color: green;
+  box-shadow: 10px 10px 20px green;
+}
