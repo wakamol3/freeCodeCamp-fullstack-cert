@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application Form</title>
-  </head>
-  <body></body>
+    <link rel="stylehseet" href="styles.css"/>
+</head>
+<body>
+<div class="container">
+    <form><label>Name</label>
+        <input type="text" id="name"></input>
+        <label>Email</label><input type="email" id="email"></input>
+        <select id="position"></select>
+        <fieldset class="radio-group">
+            <label>Full-Time</label><input type="radio" name="availability" id="Full-Time"></input>
+
+<label>Part-Time</label>
+
+<input type="radio" name="availability"
+            id="Part-Time"></input>
+        </fieldset>
+        <textarea id="message">
+        </textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
 </html>
