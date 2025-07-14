@@ -9,32 +9,42 @@
 
   <body>
     <div class="container">
+      <h1>Job Application Form</h1>
       <form>
-        <label for="name">Name:</label>
-        <input
-          required
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Enter your name"
-        />
-        <label for="email">Email:</label
-        ><input
-          required
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email"
-        />
-        <label for="position">Position:</label>
-        <select required name="position" id="position">
-          <option></option>
-          <option value="waiter">Waiter</option>
-          <option value="waiter">Busser</option>
-          <option value="waiter">Host</option>
-          <option value="waiter">Line Cook</option>
-        </select>
+        <div>
+          <label for="name">Name:</label>
+          <input
+            required
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input
+            required
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div>
+          <label for="position">Position:</label>
+          <select required name="position" id="position">
+            <option></option>
+            <option value="waiter">Waiter</option>
+            <option value="waiter">Busser</option>
+            <option value="waiter">Host</option>
+            <option value="waiter">Line Cook</option>
+          </select>
+        </div>
         <fieldset class="radio-group">
+          <legend>Availability:</legend>
           <input
             required
             type="radio"
