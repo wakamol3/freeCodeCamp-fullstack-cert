@@ -6,14 +6,16 @@ body {
 
 .form-container {
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 10px auto;
   padding: 20px;
   width: 350px;
+  text-align: center;
 }
 
 label {
   margin: 10px auto;
+  color: rgb(255, 19, 129);
 }
 
 input,
@@ -24,10 +26,14 @@ textarea {
 }
 
 button {
-  background-color: lightgreen;
+  background-color: black;
   font-size: 24px;
   color: white;
   border: none;
   border-radius: 5px;
   margin: 0 auto;
+}
+
+button:hover {
+  background-color: lightgreen;
 }
