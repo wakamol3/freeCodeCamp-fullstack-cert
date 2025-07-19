@@ -3,6 +3,7 @@ body {
   background: linear-gradient(to left, lightblue, lightgreen);
   font-family: Arial, sans-serif;
   padding: 20px;
+  height: 100vh;
 }
 
 .form-container {
@@ -15,16 +16,22 @@ body {
 }
 
 label {
-  margin: 10px auto;
+  margin: 10px 0 5px;
   color: rgb(1, 22, 13);
+}
+
+h2 {
+  margin-bottom: 20px;
 }
 
 input,
 textarea {
-  padding: 20px;
-  margin: 0 auto 10px auto;
+  padding: 10px;
+  margin-bottom: 10px;
   width: 100%;
   box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 button {
