@@ -5,6 +5,7 @@
   border: 2px solid black;
   box-shadow: 5px 3px 3px grey;
   background: beige;
+  box-sizing: border-box;
 }
 
 #confidential,
@@ -25,7 +26,7 @@
 #top-secret {
   transform: rotate(15deg);
   font-size: 18px;
-  margin-left: 300px;
+  margin-left: 200px;
 }
 
 .blurred {
