@@ -12,13 +12,13 @@
   padding: 10px;
   display: inline-block;
   margin-left: 10px;
-  border: 6px solid red;
+  border: 5px solid red;
   color: red;
   font-weight: bold;
 }
 
 #confidential {
-  transform: rotate(-15deg);
+  transform: rotate(-20deg);
   font-size: 28px;
 }
 
