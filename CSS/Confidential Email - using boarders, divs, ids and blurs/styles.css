@@ -13,4 +13,20 @@
   display: inline-block;
   margin-left: 20px;
   border: 6px solid red;
+  color: red;
+  font-weight: bold;
+}
+
+#confidential {
+  transform: rotate(-15deg);
+  font-size: 28px;
+}
+
+#top-secret {
+  transform: rotate(15deg);
+  font-size: 18px;
+}
+
+.blurred {
+  filter: blur(3px);
 }
