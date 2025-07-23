@@ -7,3 +7,5 @@ CSS Pseudo-classes Review: https://www.freecodecamp.org/learn/full-stack-develop
 CSS Color Review: https://www.freecodecamp.org/learn/full-stack-developer/review-css-colors/review-css-colors
 
 Styling Forms: https://www.freecodecamp.org/learn/full-stack-developer/review-styling-forms/review-styling-forms
+
+CSS Layouts and Effects Review: https://www.freecodecamp.org/learn/full-stack-developer/review-css-layout-and-effects/review-css-layout-and-effects
