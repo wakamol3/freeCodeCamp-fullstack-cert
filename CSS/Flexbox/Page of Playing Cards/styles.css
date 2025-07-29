@@ -1,0 +1,51 @@
+body {
+  background-color: thistle;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 10px;
+  display: flex;
+  font-size: 30px;
+  padding: 5px;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  box-sizing: border-box; /* added bc of padding and border */
+  justify-content: space-between;
+  text-align: center; /* keeps odd number suits centered */
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.middle {
+  align-self: center;
+  display: flex;
+  font-size: 80px;
+  flex-direction: column;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.flipped {
+  transform: rotate(180deg);
+}
+
+.red {
+  color: red;
+}
