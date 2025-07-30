@@ -22,3 +22,11 @@ h1 {
   text-align: center;
   margin: -4px 0;
 }
+
+p {
+  margin: 0;
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+}
